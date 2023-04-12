@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" width = 800px/>  
+  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" width = 700px/>  
 
 
   <br>
@@ -8,7 +8,7 @@
   <br>
 </h1>
 
-<h3 align="center">These is everything I've coded through my Java journey.</h3>
+<h3 align="center">These is everything I've written through my Java journey.</h3>
 
 <p align="center">
   <a href="">
