@@ -2,11 +2,11 @@
   <br>
   <a href="https://files.codingninjas.in/article_images/java-developers-application-settings-1-1660983825.jpg"></a>
   <br>
-  FOC Lecture "C-lang" Codes
+  All my Java Work
   <br>
 </h1>
 
-<h3 align="center">These are my university lecture ( Fundamentals of Computing ) C-language codes.</h3>
+<h3 align="center">These is everything I've coded through my Java journey.</h3>
 
 <p align="center">
   <a href="">
