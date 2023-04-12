@@ -29,5 +29,10 @@
 ##
 ```Practice -> Extra practices offered by my "Programming" course's instructor.```
 ##
+##
+If you are not familiar with Java make sure to check out Java0x01 written by smadi0x86 and me:
+
+
+##
 
 
