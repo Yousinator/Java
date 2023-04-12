@@ -4,11 +4,11 @@
 
 
   <br>
-  All my Java Work.
+  My Java learning journey.
   <br>
 </h1>
 
-<h3 align="center">These is everything I've written through my Java journey.</h3>
+<h3 align="center">These are all the codes I've written through my Java learning journey.</h3>
 
 <p align="center">
   <a href="">
