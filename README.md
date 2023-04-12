@@ -7,7 +7,6 @@
   All my Java Work.
   <br>
 </h1>
-![image](https://user-images.githubusercontent.com/113384687/231450195-09dc121a-f1de-48b7-aa87-7176b20ea8c3.png)
 
 <h3 align="center">These is everything I've coded through my Java journey.</h3>
 
@@ -17,6 +16,7 @@
 
   </a>
   </p>
+![image](https://user-images.githubusercontent.com/113384687/231450265-ae336812-1ba1-47f2-a6da-51a03f2a184d.png)
 
 ## 💡Detailed INFO:
 ```finalProject.c -> The final project for the FOC course in Uni. It is notable that this file has to be run on linux, and some special files must be included.```
