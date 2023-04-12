@@ -19,7 +19,7 @@
   </p>
 
 ## 💡App.java:
-```
+``` java
         Scanner scanf = new Scanner(System.in);
 
         System.out.println("Please enter your first name");
