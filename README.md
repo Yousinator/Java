@@ -27,5 +27,7 @@
 ##
 ```Learning -> The codes I used for my self-paced Java learning journey.```
 ##
+```Practice -> Extra practices offered by my "Programming" course's instructor.```
+##
 
 
