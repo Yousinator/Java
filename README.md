@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" width = 300px/>  
+  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" width = 800px/>  
 
 
   <br>
