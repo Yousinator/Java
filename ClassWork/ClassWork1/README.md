@@ -4,11 +4,11 @@
 
 
   <br>
-  All my Java Work.
+  Explaining Classwok 1.
   <br>
 </h1>
 
-<h3 align="center">These is everything I've written through my Java journey.</h3>
+<h3 align="center">Explaining The methods written in classwork 1.</h3>
 
 <p align="center">
   <a href="">
