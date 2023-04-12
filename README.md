@@ -1,12 +1,13 @@
 <h1 align="center">
   <br>
   <img alt="GIF" src="" />  
-![image](https://user-images.githubusercontent.com/113384687/231450150-c891e582-d36d-41b9-b5f9-a6285ef71fb2.png)
+
 
   <br>
   All my Java Work.
   <br>
 </h1>
+![image](https://user-images.githubusercontent.com/113384687/231450195-09dc121a-f1de-48b7-aa87-7176b20ea8c3.png)
 
 <h3 align="center">These is everything I've coded through my Java journey.</h3>
 
