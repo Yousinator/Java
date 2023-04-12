@@ -32,7 +32,7 @@
 ##
 If you are not familiar with Java make sure to check out Java0x01 written by smadi0x86 and me:
 
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=smadi0x86&repo=Java0x01&show_owner=true&theme=dark)](https://github.com/smadi0x86/Java0x01)
 ##
 
 
