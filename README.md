@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="GIF" src="" />  
+  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" />  
 
 
   <br>
@@ -16,7 +16,6 @@
 
   </a>
   </p>
-![image](https://user-images.githubusercontent.com/113384687/231450265-ae336812-1ba1-47f2-a6da-51a03f2a184d.png)
 
 ## 💡Detailed INFO:
 ```finalProject.c -> The final project for the FOC course in Uni. It is notable that this file has to be run on linux, and some special files must be included.```
