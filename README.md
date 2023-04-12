@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" />  
+  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450328-6167393f-283d-43bc-886c-d77898724eea.png" width = 300px/>  
 
 
   <br>
@@ -18,28 +18,13 @@
   </p>
 
 ## 💡Detailed INFO:
-```finalProject.c -> The final project for the FOC course in Uni. It is notable that this file has to be run on linux, and some special files must be included.```
+```ClassWork -> The files I wrote for in-class practices during my university "Programming" course.```
 ##
-```randomArray.c -> Takes the array size as user input ---> takes an upper and lower number limit ---> fills the array randomly ---> prints the array ---> prints the positive numbers in the array.```
+```Labs -> The files I wrote for the lab work during my university "Programming" course..```
 ##
-```hangman.c -> A funny hangman game I made earlier. Takes a name and tests letter by letter for the difference.```
+```PersonalWork -> All the code I wrote that aren't related to my university's "Programming" Course.```
 ##
-```bloodTransfer.c -> Uses the strcmp function to test the validity of a bloodtransfer.```
+```Learning -> The codes I used for my self-paced Java learning journey.```
 ##
-```numberApplications.c -> Performs multiple numerical functions. 1-Factorial of a number 2-Prime or not 3-Swap two numbers 4-Combination formula 5-Permutation formula.```
-##
-```rightTriangle.c -> Checks wether a triangle is right or not.```
-##
-```maxGrade -> Takes grades until the user exitsthen calculates the 1- Number of grades entered, 2- The average value for the grades, 3- The highest grade entered, 4- the sum of all grades entered.```
-##
-```multiplicationTable.c -> Prints the mulltiplication table from 1 to 9 for the entered number.```
-##
-```matrix.c -> Takes the temperatue for 4 days for both morning and nights and gets stored in a 2d array. then a bunch of transformation are applied on the array.```
 
-##
-``` temperature. -> Takes temperature as Celsius then coverts it to Fahrenheit.```
-##
-``` stopwatch.c -> Takes a time in seconds form and changes into the normal (Hours,Minutes,Seconds) form.```
-##
-``` rectangleOrSquare.c -> Takes width and length then tests to find if the entered dimensions form a rectangle or a triangle. ```
 
