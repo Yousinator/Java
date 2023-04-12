@@ -4,11 +4,11 @@
 
 
   <br>
-  Explaining Classwok 1.
+  Explaining Classwork 1.
   <br>
 </h1>
 
-<h3 align="center">Explaining The methods written in classwork 1.</h3>
+<h3 align="center">ClassWork1 is the codes I wrote during the first week in my "Programming" lecture.</h3>
 
 <p align="center">
   <a href="">
