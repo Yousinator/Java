@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="GIF" src="https://files.codingninjas.in/article_images/java-developers-application-settings-1-1660983825.gif" />  
+  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450021-95059db9-485d-4a29-a511-3c6e2091e51e.png" />  
 
   <br>
   All my Java Work.
