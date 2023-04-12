@@ -2,7 +2,7 @@
   <br>
   <a href="https://files.codingninjas.in/article_images/java-developers-application-settings-1-1660983825.jpg"></a>
   <br>
-  All my Java Work
+  All my Java Work.
   <br>
 </h1>
 
