@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
-  <img alt="GIF" src="https://user-images.githubusercontent.com/113384687/231450021-95059db9-485d-4a29-a511-3c6e2091e51e.png" />  
+  <img alt="GIF" src="" />  
+![image](https://user-images.githubusercontent.com/113384687/231450150-c891e582-d36d-41b9-b5f9-a6285ef71fb2.png)
 
   <br>
   All my Java Work.
