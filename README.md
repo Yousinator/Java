@@ -1,7 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="![image](https://user-images.githubusercontent.com/113384687/231448347-5b27fbc6-1a4c-46ed-87f5-34a2588e2421.png)
-"></a>
+  <a href="https://user-images.githubusercontent.com/113384687/231448347-5b27fbc6-1a4c-46ed-87f5-34a2588e2421.png"></a>
   <br>
   FOC Lecture "C-lang" Codes
   <br>
