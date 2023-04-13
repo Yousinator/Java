@@ -18,12 +18,29 @@
   </a>
   </p>
 
-## 💡Detailed INFO:
-```ClassWork -> The files I wrote for in-class practices during my university "Programming" course.```
+## 💡App.java:
+``` java
+        Yet to be done
+```
 ##
-```Labs -> The files I wrote for the lab work during my university "Programming" course..```
+## 💡button.java:
+``` java
+        Yet to be done
+```
 ##
-```PersonalWork -> All the code I wrote that aren't related to my university's "Programming" Course.```
+## 💡smallButton.java:
+``` java
+        Yet to be done
+```
 ##
-```Learning -> The codes I used for my self-paced Java learning journey.```
+## 💡car.java:
+``` java
+        Yet to be done
+```
 ##
+## 💡suv.java:
+``` java
+        Yet to be done
+```
+##
+
