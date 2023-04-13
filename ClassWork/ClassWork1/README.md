@@ -26,11 +26,9 @@
         String name = scanf.next();
 ```
 ##
-```Labs -> The files I wrote for the lab work during my university "Programming" course..```
+## 💡cred.java:
+``` java
+        yet to be done
+```
 ##
-```PersonalWork -> All the code I wrote that aren't related to my university's "Programming" Course.```
-##
-```Learning -> The codes I used for my self-paced Java learning journey.```
-##
-
 
