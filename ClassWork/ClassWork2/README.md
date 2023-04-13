@@ -18,12 +18,11 @@
   </a>
   </p>
 
-## 💡Detailed INFO:
-```ClassWork -> The files I wrote for in-class practices during my university "Programming" course.```
-##
-```Labs -> The files I wrote for the lab work during my university "Programming" course..```
-##
-```PersonalWork -> All the code I wrote that aren't related to my university's "Programming" Course.```
-##
-```Learning -> The codes I used for my self-paced Java learning journey.```
+## 💡App.java:
+``` java
+        Scanner scanf = new Scanner(System.in);
+
+        System.out.println("Please enter your first name");
+        String name = scanf.next();
+```
 ##
