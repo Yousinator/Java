@@ -7,6 +7,7 @@ public class App extends JFrame implements ActionListener {
     private JTextField num1Field, num2Field, resultField;
     private JComboBox<String> operationBox;
     private JButton calculateButton, clearButton, exitButton;
+    Calculator calc = new Calculator(11, 10);
 
     public App() {
         super("App");
@@ -59,23 +60,23 @@ public class App extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == calculateButton) {
             try {
-                double num1 = Double.parseDouble(num1Field.getText());
-                double num2 = Double.parseDouble(num2Field.getText());
+                calc.setnum1(Double.parseDouble(num1Field.getText()));
+                calc.setnum2(Double.parseDouble(num2Field.getText()));
                 String operation = (String) operationBox.getSelectedItem();
                 double result = 0;
 
                 switch (operation) {
                     case "+":
-                        result = add(num1, num2);
+                        result = calc.add();
                         break;
                     case "-":
-                        result = subtract(num1, num2);
+                        result = calc.subtract();
                         break;
                     case "*":
-                        result = multiply(num1, num2);
+                        result = calc.multiply();
                         break;
                     case "/":
-                        result = divide(num1, num2);
+                        result = calc.divide();
                         break;
                 }
 
@@ -90,25 +91,6 @@ public class App extends JFrame implements ActionListener {
         } else if (e.getSource() == exitButton) {
             System.exit(0);
         }
-    }
-
-    public static double add(double num1, double num2) {
-        return num1 + num2;
-    }
-
-    public static double subtract(double num1, double num2) {
-        return num1 - num2;
-    }
-
-    public static double multiply(double num1, double num2) {
-        return num1 * num2;
-    }
-
-    public static double divide(double num1, double num2) {
-        if (num2 == 0) {
-            throw new ArithmeticException("Cannot divide by zero!");
-        }
-        return num1 / num2;
     }
 
     public static void main(String[] args) {
