@@ -7,7 +7,7 @@ public class App extends JFrame implements ActionListener {
     private JTextField num1Field, num2Field, resultField;
     private JComboBox<String> operationBox;
     private JButton calculateButton, clearButton, exitButton;
-    Calculator calc = new Calculator(11, 10);
+    Calculator calc = new Calculator();
 
     public App() {
         super("App");
