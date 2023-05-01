@@ -6,12 +6,12 @@ public class Student {
     }
 
     public Student(int id, int phoneNumber, int secondaryGPA, int age, String name, String major) {
-        this.id = id;
-        this.phoneNumber = phoneNumber;
-        this.secondaryGPA = secondaryGPA;
-        this.age = age;
-        this.name = name;
-        this.major = major;
+        setId(id);
+        setPhoneNumber(phoneNumber);
+        setSecondaryGPA(secondaryGPA);
+        setAge(age);
+        setName(name);
+        setMajor(major);
     }
 
     public int getId() {

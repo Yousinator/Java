@@ -6,10 +6,10 @@ public class Course {
     }
 
     public Course(int code, int creditHours, int maxEnrollment, String name) {
-        this.code = code;
-        this.creditHours = creditHours;
-        this.maxEnrollment = maxEnrollment;
-        this.name = name;
+        setCode(code);
+        setCreditHours(creditHours);
+        setMaxEnrollment(maxEnrollment);
+        setName(name);
     }
 
     public int getCode() {

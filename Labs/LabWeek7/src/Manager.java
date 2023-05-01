@@ -6,11 +6,11 @@ public class Manager {
     }
 
     public Manager(int id, int experienceYear, int salary, int age, String name) {
-        this.id = id;
-        this.experienceYear = experienceYear;
-        this.salary = salary;
-        this.age = age;
-        this.name = name;
+        setId(id);
+        setExperienceYear(experienceYear);
+        setSalary(salary);
+        setAge(age);
+        setName(name);
     }
 
     public int getId() {

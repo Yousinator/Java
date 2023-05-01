@@ -6,12 +6,12 @@ public class Professor {
     }
 
     public Professor(int id, int experienceYear, int salary, int load, int age, String name) {
-        this.id = id;
-        this.experienceYear = experienceYear;
-        this.salary = salary;
-        this.load = load;
-        this.age = age;
-        this.name = name;
+        setId(id);
+        setExperienceYear(experienceYear);
+        setSalary(salary);
+        setLoad(load);
+        setAge(age);
+        setName(name);
     }
 
     public int getId() {

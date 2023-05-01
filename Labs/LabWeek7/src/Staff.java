@@ -6,12 +6,12 @@ public class Staff {
     }
 
     public Staff(int id, int experienceYear, int salary, int age, String name, String section) {
-        this.id = id;
-        this.experienceYear = experienceYear;
-        this.salary = salary;
-        this.age = age;
-        this.name = name;
-        this.section = section;
+        setId(id);
+        setExperienceYear(experienceYear);
+        setSalary(salary);
+        setAge(age);
+        setName(name);
+        setSection(section);
     }
 
     public int getId() {
