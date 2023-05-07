@@ -1,23 +1,15 @@
 public class Manager extends User {
-    private int id, experienceYear, salary, age;
-    private String name;
+    private int managerId, experienceYear, salary;
+    private static int finalManagerId = 0;
 
     public Manager() {
     }
 
-    public Manager(int id, int experienceYear, int salary, int age, String name) {
-        super(id, age, name);
+    public Manager(int phoneNumber, int age, String name, int experienceYear, int salary) {
+        super(phoneNumber, age, name);
         setExperienceYear(experienceYear);
         setSalary(salary);
-
-    }
-
-    public int getId() {
-        return this.id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        setManagerId(managerId);
     }
 
     public int getExperienceYear() {
@@ -36,25 +28,18 @@ public class Manager extends User {
         this.salary = salary;
     }
 
-    public int getAge() {
-        return this.age;
+    public int getManagerId() {
+        return managerId;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setManagerId(int managerId) {
+        this.managerId = ++finalManagerId;
     }
 
     public void printInfo() {
-        System.out.printf("Id [%d]\nSalary [%d]\nAge [%d]\nExperience [%d]\nname [%s]\n", id, salary,
-                age, experienceYear, name);
+        System.out.printf("Id [%d]\nManager Id: [%d]\nSalary [%d]\nAge [%d]\nExperience [%d]\nname [%s]\n", getId(),
+                getManagerId(), getSalary(),
+                getAge(), getExperienceYear(), getName());
     }
 
     public double calcAnnualSalary() {

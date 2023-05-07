@@ -1,25 +1,17 @@
-public class Staff {
-    private int id, experienceYear, salary, age;
-    private String name, section;
+public class Staff extends User {
+    private int staffId, experienceYear, salary;
+    private String section;
+    static private int finalStaffId = 0;
 
     public Staff() {
     }
 
-    public Staff(int id, int experienceYear, int salary, int age, String name, String section) {
-        setId(id);
+    public Staff(int phoneNumber, int age, String name, int experienceYear, int salary) {
+        super(phoneNumber, age, name);
         setExperienceYear(experienceYear);
         setSalary(salary);
-        setAge(age);
-        setName(name);
         setSection(section);
-    }
-
-    public int getId() {
-        return this.id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        setStaffId(staffId);
     }
 
     public int getExperienceYear() {
@@ -38,22 +30,6 @@ public class Staff {
         this.salary = salary;
     }
 
-    public int getAge() {
-        return this.age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getSection() {
         return this.section;
     }
@@ -62,9 +38,18 @@ public class Staff {
         this.section = section;
     }
 
+    public int getStaffId() {
+        return this.staffId;
+    }
+
+    public void setStaffId(int staffId) {
+        this.staffId = ++finalStaffId;
+    }
+
     public void printInfo() {
-        System.out.printf("Id [%d]\nSalary [%d]\nAge [%d]\nExperience [%d]\nname [%s]\nSection [%s]", id, salary,
-                age, experienceYear, name, section);
+        System.out.printf("Id [%d]\nStaff Id: [%d]\nSalary [%d]\nAge [%d]\nExperience [%d]\nname [%s]\nSection [%s]",
+                getId(), getStaffId(), getSalary(),
+                getAge(), getExperienceYear(), getName(), getSection());
     }
 
     public double calcAnnualSalary() {

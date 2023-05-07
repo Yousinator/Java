@@ -8,21 +8,21 @@ public class App {
         myDepartment.printInfo();
         System.out.println("------------------------------------------------");
 
-        Manager myManager = new Manager(8765467, 15, 20000, 47, "Ahmad");
+        Manager myManager = new Manager(020202, 22, "admin", 1, 2300);
         myManager.printInfo();
         System.out.println(myManager.calcAnnualSalary());
         System.out.println("------------------------------------------------");
 
-        Professor myProfessor = new Professor(876546789, 12, 13000, 4, 36, "sobhi");
+        Professor myProfessor = new Professor(12, 2300, 3, 45, "Sobhi", 022);
         myProfessor.printInfo();
         System.out.println("------------------------------------------------");
 
-        Staff myStaff = new Staff(452636732, 7, 7000, 27, "Amro", "Art");
+        Staff myStaff = new Staff(987655678, 78, "ahmad", 1, 3400);
         myStaff.printInfo();
         System.out.println(myStaff.calcAnnualSalary());
         System.out.println("------------------------------------------------");
 
-        Student myStudent = new Student(74646733, 7892367, 3, 20, "Khalid", "AI");
+        Student myStudent = new Student(987655678, 4, 23, "admin", "Ai");
         myStudent.printInfo();
         System.out.println("\n------------------------------------------------");
 

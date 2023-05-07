@@ -1,33 +1,16 @@
-public class Student {
-    private int id, phoneNumber, secondaryGPA, age;
-    private String name, major;
+public class Student extends User {
+    private int studentId, secondaryGPA;
+    private String major;
+    static private int finalStudentId = 0;
 
     public Student() {
     }
 
-    public Student(int id, int phoneNumber, int secondaryGPA, int age, String name, String major) {
-        setId(id);
-        setPhoneNumber(phoneNumber);
+    public Student(int phoneNumber, int secondaryGPA, int age, String name, String major) {
+        super(phoneNumber, age, name);
         setSecondaryGPA(secondaryGPA);
-        setAge(age);
-        setName(name);
         setMajor(major);
-    }
-
-    public int getId() {
-        return this.id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getPhoneNumber() {
-        return this.phoneNumber;
-    }
-
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        setStudentId(studentId);
     }
 
     public int getSecondaryGPA() {
@@ -38,22 +21,6 @@ public class Student {
         this.secondaryGPA = secondaryGPA;
     }
 
-    public int getAge() {
-        return this.age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getMajor() {
         return this.major;
     }
@@ -62,8 +29,18 @@ public class Student {
         this.major = major;
     }
 
+    public int getStudentId() {
+        return this.studentId;
+    }
+
+    public void setStudentId(int studentId) {
+        this.studentId = ++finalStudentId;
+    }
+
     public void printInfo() {
-        System.out.printf("Id [%d]\nPhone Number[%d]\nAge [%d]\nGPA [%d]\nname [%s]\nMajor [%s]", id, phoneNumber,
-                age, secondaryGPA, name, major);
+        System.out.printf("Id [%d]\nStudent Id [%d]\nPhone Number[%d]\nAge [%d]\nGPA [%d]\nname [%s]\nMajor [%s]",
+                getId(),
+                getStudentId(), getPhoneNumber(),
+                getAge(), getSecondaryGPA(), getName(), getMajor());
     }
 }

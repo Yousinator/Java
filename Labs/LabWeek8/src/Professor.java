@@ -1,25 +1,16 @@
-public class Professor {
-    private int id, experienceYear, salary, load, age;
-    private String name;
+public class Professor extends User {
+    private int professorId, experienceYear, salary, load;
+    static private int lastProfessorId = 0;
 
     public Professor() {
     }
 
-    public Professor(int id, int experienceYear, int salary, int load, int age, String name) {
-        setId(id);
+    public Professor(int experienceYear, int salary, int load, int age, String name, int phoneNumber) {
+        super(phoneNumber, age, name);
         setExperienceYear(experienceYear);
         setSalary(salary);
         setLoad(load);
-        setAge(age);
-        setName(name);
-    }
-
-    public int getId() {
-        return this.id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        setProfessorId(professorId);
     }
 
     public int getExperienceYear() {
@@ -46,24 +37,16 @@ public class Professor {
         this.load = load;
     }
 
-    public int getAge() {
-        return this.age;
+    public void setProfessorId(int professorId) {
+        this.professorId = ++lastProfessorId;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public int getProfessorId() {
+        return this.professorId;
     }
 
     public void printInfo() {
-        System.out.printf("Id [%d]\nSalary [%d]\nLoad [%d]\nAge [%d]\nExperience [%d]\nname [%s]\n", id, salary, load,
-                age, experienceYear, name);
+        System.out.printf("Id [%d]\nProfessor Id [%d]\nSalary [%d]\nLoad [%d]\nAge [%d]\nExperience [%d]\nname [%s]\n",
+                getId(), getProfessorId(), getSalary(), getLoad(), getAge(), getExperienceYear(), getName());
     }
 }

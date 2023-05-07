@@ -1,15 +1,16 @@
 public class User {
     private int id, phoneNumber, age;
+    private static int lastId = 0;
     String name;
 
     public User() {
     }
 
-    public User(int id, int phoneNumber, int age, String name) {
-        setId(id);
+    public User(int phoneNumber, int age, String name) {
         setPhoneNumber(phoneNumber);
         setAge(age);
         setName(name);
+        setId(id);
     }
 
     public int getId() {
@@ -17,7 +18,7 @@ public class User {
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.id = ++lastId;
     }
 
     public int getPhoneNumber() {
@@ -45,7 +46,7 @@ public class User {
     }
 
     public void printInfo() {
-        System.out.printf("Id [%d]\nPhone Number [%d]\nAge [%d]\nname [%s]\n", id, phoneNumber,
-                age, name);
+        System.out.printf("Id [%d]\nPhone Number [%d]\nAge [%d]\nname [%s]\n", getId(), getPhoneNumber(),
+                getAge(), getName());
     }
 }
