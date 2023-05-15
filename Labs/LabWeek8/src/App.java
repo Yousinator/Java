@@ -8,7 +8,7 @@ public class App {
         myDepartment.printInfo();
         System.out.println("------------------------------------------------");
 
-        Manager myManager = new Manager(020202, 22, "admin", 1, 2300);
+        Manager myManager = new Manager(020202, 16, "admin", 1, 2300);
         myManager.printInfo();
         System.out.println(myManager.calcAnnualSalary());
         System.out.println("------------------------------------------------");

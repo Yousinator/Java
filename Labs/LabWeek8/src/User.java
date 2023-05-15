@@ -1,14 +1,24 @@
+import java.util.Scanner;
+
 public class User {
     private int id, phoneNumber, age;
     private static int lastId = 0;
     String name;
+    Scanner scanf = new Scanner(System.in);
 
     public User() {
     }
 
     public User(int phoneNumber, int age, String name) {
         setPhoneNumber(phoneNumber);
-        setAge(age);
+        if (age >= 18) {
+            setAge(age);
+        } else {
+            while (age < 18) {
+                System.out.println("Age must be greater than 18");
+                age = scanf.nextInt();
+            }
+        }
         setName(name);
         setId(id);
     }

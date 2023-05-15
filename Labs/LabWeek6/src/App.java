@@ -39,14 +39,11 @@ public class App {
         int number = scanf.nextInt(), foundIndex = 0;
 
         for (int i = 0; i < myArray.length; i++) {
-
             if (myArray[i] == number) {
                 foundIndex = i;
-
             } else if (i == myArray.length && myArray[i] != number) {
                 System.out.printf("%d not found\n", number);
             }
-
         }
         System.out.printf("%d found at %d\n", number, foundIndex);
     }
